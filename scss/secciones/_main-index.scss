@@ -1,0 +1,19 @@
+.cambiomain {
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      &:hover{color: blue;}
+    }
+   
+  
+    section {
+      display: flex;
+    }
+    img {
+      display: flex;
+      width: 50%;
+      height: 400px;
+      margin: 5px;
+    }
+  }
+  

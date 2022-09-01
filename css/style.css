@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  background-color: #219621; }
+  header li {
+    display: flex;
+    list-style: none; }
+
+.cambiomain h1 {
+  text-align: center;
+  text-transform: uppercase; }
+  .cambiomain h1:hover {
+    color: blue; }
+
+.cambiomain section {
+  display: flex; }
+
+.cambiomain img {
+  display: flex;
+  width: 50%;
+  height: 400px;
+  margin: 5px; }
+
+footer {
+  background-color: #5baa5b;
+  padding: 15px; }
+  footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
