@@ -3,9 +3,18 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+
+//VARIABLES (SIEMPRE ARRIBA) DE LA SEGUNDA CLASE
+
+@import './variables/colors';
+@import './variables/typo';
   
- @import './secciones/header';
+  //PAGINA MAIN DE LA PRIMERA CLASE
+  @import './secciones/main-index';
   
- @import './secciones/main-index';
-  
- @import './secciones/footer'
+ @import './secciones/footer';
+
+ //DE LA CLASE DE SASS 2
+
+ @import './seccionesSass2/headerSass2';

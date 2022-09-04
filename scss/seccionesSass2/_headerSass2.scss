@@ -1,0 +1,31 @@
+.header1 {
+  background-color:$azulclaro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  &__logo {
+    height: 45px;
+    width: 61px;
+    margin-left: 1rem;
+  }
+  &__ul {
+    display: flex;
+    list-style: none;
+    
+    &--negrita{
+        font-weight: 600; 
+        
+    
+    }
+    li{
+        padding: 1rem;
+       
+        a{
+            font-family: $tipografiaPrincipal;
+            color: black;
+            text-decoration: none;
+        }
+    }
+  }
+}
