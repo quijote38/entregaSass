@@ -1,0 +1,14 @@
+.principal{
+    max-width: 50vw;
+    @include estiloPrimario; 
+
+
+}
+.secundario{
+    max-width: 50vw;
+    @extend %estiloSecundario;
+
+}
+
+
+

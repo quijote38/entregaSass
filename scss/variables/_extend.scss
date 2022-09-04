@@ -1,0 +1,19 @@
+//EXTEND
+
+
+%estiloSecundario {
+  background-color: #ffb703;
+  color: $verdeMi;
+  padding: 15px;
+  text-align: center;
+}
+
+//MIXIN
+
+@mixin estiloPrimario{
+  background-color: $rojo;
+  color: $amarilloLetra;
+  padding: 15px;
+  text-align: center;
+
+}

@@ -9,6 +9,7 @@
 
 @import './variables/colors';
 @import './variables/typo';
+@import './variables/extend';
   
   //PAGINA MAIN DE LA PRIMERA CLASE
   @import './secciones/main-index';
@@ -18,3 +19,4 @@
  //DE LA CLASE DE SASS 2
 
  @import './seccionesSass2/headerSass2';
+ @import './seccionesSass2/mainSass2'
